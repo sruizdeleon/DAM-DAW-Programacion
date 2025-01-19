@@ -1,0 +1,36 @@
+# Archivos y carpetas generados automáticamente por el compilador o IDE
+/bin/
+*.class
+
+# Archivos y carpetas específicos de VSCode
+.vscode/
+*.code-workspace
+
+# Librerías externas que se regeneran o no deberían versionarse
+/lib/
+
+# Archivos temporales o de sistema
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Configuración de compilación específica
+*.iml
+*.idea/
+.gradle/
+out/
+
+# Archivos generados por sistemas de construcción
+/.mvn/
+/target/
+
+# Archivos de entorno o dependencias externas
+*.jar
+*.war
+
+# Backup y archivos generados automáticamente
+*.bak
+*.old
+*~
