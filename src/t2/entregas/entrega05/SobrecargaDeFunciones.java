@@ -112,3 +112,20 @@ public class SobrecargaDeFunciones {
 
 
 }
+
+/* Actividad 04: Entornos de desarrollo */
+
+/* Enunciado: Diferencia entre commit, push y pull */
+
+/*
+ * Commit: es la forma de guardar los cambios realizados pero en local, es decir, en ordenador en el que estás trabajando.
+ * Por hacer un símil, sería como pulsar en guardar en un archivo de Word guardado localmente en nuestro ordenador.
+ *
+ * Push: es el envío de nuestros cambios realizados al repositorio remoto o en la nube, en este caso GitHub, de esta manera, si se nos rompe el ordenador o queremos compartirlo con otra persona, podríamos hacer un Clone y descargar el proyecto.
+ * Por seguir con el símil, sería como subir el archivo de Word a Google Drive, de esta manera podemos acceder desde otros ordenadores y compartirlo y que lo descarguen otras personas.
+ *
+ *
+ * Pull: es descargar el repositorio remoto en nuestro ordenador de manera local, en este proceso se fusiona con nuestra copia local y, si hay algún conflicto, se tiene que resolver. Una vez resulto, estaríamos al día con el repositorio remoto, por lo que estaríamos al corriente de los últimos cambios subidos.
+ * Por seguir con el símil, sería como descargar el archivo de Word y hacer un control de cambios, en el que revisamos si otras personas han eliminado partes del texto que necesitábamos.
+ *
+ */
