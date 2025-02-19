@@ -161,7 +161,7 @@ public class Fraccion {
    * Método para simplificar la fracción dividiendo numerador y denominador por su máximo común divisor.
    *
    */
-  public void simplificar() {
+  private void simplificar() {
     int mcd = calcularMCD(Math.abs(numerador), Math.abs(denominador));
     numerador /= mcd;
     denominador/= mcd;
