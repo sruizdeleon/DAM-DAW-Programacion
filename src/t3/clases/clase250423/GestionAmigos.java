@@ -1,4 +1,4 @@
-package t2.clases.clase250423;
+package t3.clases.clase250423;
 
 import java.io.*;
 import java.time.LocalDate;
@@ -34,7 +34,7 @@ public class GestionAmigos {
             // Una nueva lista de amigos
             List<Amigo> listaAmigos2 = new ArrayList<>();
 
-            String rutaArchivo = "src\\t2\\clases\\clase250423\\amigos.dat";
+            String rutaArchivo = "src\\t3\\clases\\clase250423\\amigos.dat";
             // Guardar la lista de amigos en un archivo
             guardarListaAmigos(listaAmigos, rutaArchivo);
             System.out.println("Lista de amigos guardada correctamente.");

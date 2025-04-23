@@ -1,4 +1,4 @@
-package t2.clases.clase250423;
+package t3.clases.clase250423;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -12,7 +12,7 @@ public class EscrituraYoutuber {
 
         try {
             // Se crea un flujo para escribir bytes en el archivo
-            FileOutputStream fs = new FileOutputStream("src\\t2\\clases\\clase250423\\youtubers.txt");
+            FileOutputStream fs = new FileOutputStream("src\\t3\\clases\\clase250423\\youtubers.txt");
 
             // Se crea un flujo para escribir objetos en el archivo
             ObjectOutputStream oos = new ObjectOutputStream(fs);

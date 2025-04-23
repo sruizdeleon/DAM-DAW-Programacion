@@ -1,4 +1,4 @@
-package t2.clases.clase250423;
+package t3.clases.clase250423;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -6,7 +6,7 @@ import java.io.ObjectInputStream;
 
 public class LeerNumerosBinario {
     public static void main(String[] args) {
-        String fichero = "src\\t2\\clases\\clase250423\\numerosBinarios.dat";
+        String fichero = "src\\t3\\clases\\clase250423\\numerosBinarios.dat";
 
         try (ObjectInputStream in = new ObjectInputStream(new FileInputStream(fichero))) {
             int x;

@@ -1,4 +1,4 @@
-package t2.clases.clase250423;
+package t3.clases.clase250423;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -13,7 +13,7 @@ public class CasoPractico3 {
         System.out.println("Dime un número:");
         int n = sc.nextInt();
 
-        String fichero = "src\\t2\\clases\\clase250423\\casoPractico_3.txt";
+        String fichero = "src\\t3\\clases\\clase250423\\casoPractico_3.txt";
 
         try {
             PrintWriter pw = new PrintWriter(new File(fichero));

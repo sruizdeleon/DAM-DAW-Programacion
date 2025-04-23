@@ -1,4 +1,4 @@
-package t2.clases.clase250423;
+package t3.clases.clase250423;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -14,7 +14,7 @@ public class BuscadorPalabras {
     System.out.println("Introduce la palabra que quieres buscar:");
     String palabraBuscada = entrada.nextLine();
 
-    String rutaFichero = "src\\t2\\clases\\clase250423\\palabrasParaBuscar.txt";
+    String rutaFichero = "src\\t3\\clases\\clase250423\\palabrasParaBuscar.txt";
 
     // Creamos un objeto scanner para leer de un fichero (File)
     try(Scanner lectorFichero = new Scanner(new File(rutaFichero))) {

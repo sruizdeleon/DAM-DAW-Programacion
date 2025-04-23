@@ -1,4 +1,4 @@
-package t2.clases.clase250423;
+package t3.clases.clase250423;
 
 import java.io.EOFException;
 import java.io.File;
@@ -10,7 +10,7 @@ public class LecturaYoutuber {
     public static void main(String[] args) {
         // Lectura del fichero
         try {
-            File f = new File("src\\t2\\clases\\clase250423\\youtubers.txt");
+            File f = new File("src\\t3\\clases\\clase250423\\youtubers.txt");
             if (f.exists()) {
                 FileInputStream fis = new FileInputStream(f);
                 ObjectInputStream ois = new ObjectInputStream(fis);
