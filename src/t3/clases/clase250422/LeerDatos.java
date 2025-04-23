@@ -1,4 +1,4 @@
-package t2.clases.clase250422;
+package t3.clases.clase250422;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class LeerDatos {
     public static void main(String[] args) {
-        String nombreArchivo = "src\\t2\\clases\\clase250422\\datos.txt";
+        String nombreArchivo = "src\\t3\\clases\\clase250422\\datos.txt";
         try (BufferedReader lector = new BufferedReader(new FileReader(nombreArchivo))) {
             String linea = lector.readLine(); // Lee la primera línea
             if (linea != null) {
